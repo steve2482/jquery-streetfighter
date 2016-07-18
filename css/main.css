@@ -12,17 +12,25 @@ body {
 	z-index: 1;
 }
 
+.instructions {
+	margin-right: 200px;
+	padding-top: 50px;
+	font-family: Bangers;
+	font-size: 2em;
+	float: right;
+}
+
 .ryu {
 	width: 659px;
 	height: 494px;
 }
 
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 }
 
@@ -38,7 +46,11 @@ body {
 	background-image: url("../images/ryu-throwing-hadouken.png");
 }
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-cool {
+	background-image: url("../images/ryu-cool.gif");
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	background-repeat: no-repeat;
 }
 
